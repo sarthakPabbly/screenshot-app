@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer-core');
 const http = require('http');
 const url = require('url');
 
-const port = 3000;
+const port = 3001;
 
 async function takeScreenshot(targetUrl) {
     let browser = null;
